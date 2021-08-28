@@ -53,12 +53,13 @@ nav ul li a:hover{
 @media screen and (max-width:720px) {
     nav ul{
         position: absolute;
-         left: 0px;
+        right: 0px;
         top: 9vh;
         background-color: rgb(0, 0, 0);
         height: 91vh ;
         flex-direction: column;
         width: 100vw;
+        align-items: center;
         transform: translateX(100%);
         transition: 2s;
 
